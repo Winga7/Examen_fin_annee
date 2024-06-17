@@ -1,0 +1,38 @@
+/* Styles spécifiques pour l'impression */
+
+/* Masquer les éléments non pertinents */
+header,
+footer,
+nav,
+aside {
+	display: none;
+}
+
+/* Ajuster la taille de la police pour l'impression */
+body {
+	font-size: 12pt;
+}
+
+/* Ajouter des marges pour l'impression */
+@page {
+	margin: 2cm;
+}
+
+/* Personnaliser les en-têtes et pieds de page pour l'impression */
+@page {
+	@top-center {
+		content: "En-tête de page";
+	}
+
+	@bottom-center {
+		content: "Pied de page";
+	}
+}
+
+/* Ajouter des styles supplémentaires pour l'impression */
+@media print {
+	/* Exemple : changer la couleur de fond */
+	body {
+		background-color: #f5f5f5;
+	}
+}
