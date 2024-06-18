@@ -9,9 +9,6 @@
 
 /* Supprimer les marges et les paddings par défaut */
 body,
-ul,
-ol,
-li,
 figure,
 figcaption,
 blockquote,
@@ -34,7 +31,6 @@ a {
 }
 
 /* Supprimer les styles de bouton par défaut */
-button,
 input,
 optgroup,
 select,
