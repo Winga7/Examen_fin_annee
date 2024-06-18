@@ -7,7 +7,8 @@ nav,
 aside,
 header a,
 a,
-footer p {
+footer p,
+#accroche button {
 	display: none;
 }
 
@@ -18,7 +19,7 @@ body {
 
 /* Ajouter des marges pour l'impression */
 @page {
-	margin: 2cm;
+	margin: 1cm;
 }
 
 /* Ajouter des styles supplémentaires pour l'impression */

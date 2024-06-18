@@ -157,6 +157,13 @@ nav li:hover::before {
 	color: pink;
 	padding: 5em;
 }
+@media print {
+	#accroche,
+	#accroche p {
+		padding: 0;
+		margin: 0;
+	}
+}
 #accroche h2 {
 	color: black;
 }
