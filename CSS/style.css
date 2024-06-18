@@ -22,9 +22,9 @@ header {
 	width: 15%;
 	height: 15%;
 } */
-nav {
+/* nav {
 	display: initial;
-}
+} */
 nav ul {
 	display: flex;
 	flex-direction: row;

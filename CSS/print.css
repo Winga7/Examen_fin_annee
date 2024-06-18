@@ -4,13 +4,16 @@
 header,
 footer,
 nav,
-aside {
+aside,
+header a,
+a,
+footer p {
 	display: none;
 }
 
 /* Ajuster la taille de la police pour l'impression */
 body {
-	font-size: 12pt;
+	font-size: 10pt;
 }
 
 /* Ajouter des marges pour l'impression */
@@ -18,21 +21,7 @@ body {
 	margin: 2cm;
 }
 
-/* Personnaliser les en-têtes et pieds de page pour l'impression */
-@page {
-	@top-center {
-		content: "En-tête de page";
-	}
-
-	@bottom-center {
-		content: "Pied de page";
-	}
-}
-
 /* Ajouter des styles supplémentaires pour l'impression */
-@media print {
-	/* Exemple : changer la couleur de fond */
-	body {
-		background-color: #f5f5f5;
-	}
+body {
+	background-color: #f5f5f5;
 }
